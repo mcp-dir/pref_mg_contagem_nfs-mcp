@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pref_mg_contagem_nfs-mcp",
+  "title": "Prefeitura MG Contagem: NFS-e (Nota Fiscal Eletrônica de Serviços)",
+  "description": "Prefeitura MG Contagem: NFS-e (Nota Fiscal Eletrônica de Serviços), official-source lookup. Platform",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pref_mg_contagem_nfs-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pref_mg_contagem_nfs"
+    }
+  ]
+}
